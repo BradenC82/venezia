@@ -18,7 +18,7 @@ function App() {
 
   return (
     <div className="App">
-
+      
       <HamburgerIcon className="fixed m-8 md:m-12 top-0 right-0 z-10" onClick={drawerToggleHandler}></HamburgerIcon>
       <Drawer open={drawerOpen} toggle={drawerToggleHandler}></Drawer>
 
