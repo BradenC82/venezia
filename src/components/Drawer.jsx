@@ -2,7 +2,6 @@ import React from 'react'
 import '../assets/index.css';
 import {ReactComponent as CloseIcon} from '../assets/icons/close.svg'
 import './Drawer.css'
-import fullpage_api from '@fullpage/react-fullpage'
 
 export default function Drawer(props) {
 
@@ -11,8 +10,6 @@ export default function Drawer(props) {
     if(props.open){
         DrawerClasses+="translate-x-0"
     }
-
-    console.log(fullpage_api)
 
     return (
         <div className={DrawerClasses}>
