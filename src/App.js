@@ -36,9 +36,9 @@ function App() {
         scrollingSpeed={800}
         navigation
         navigationPosition={'left'}
-        navigationTooltips={['firstSlide', 'secondSlide']}
+        navigationTooltips={[]}
         showActiveTooltip
-        anchors={['firstPage', 'secondPage', 'thirdPage', 'fourthPage', 'fifthPage']}
+        anchors={['Explore', 'Communities', 'History', 'Attractions', 'Book']}
         render={({ state, fullpageApi }) => {
           return (
             <React.Fragment>
@@ -53,11 +53,11 @@ function App() {
                       <div className='text-center flex flex-col items-center max-w-sm'>
                         <h1 className="font-display text-4xl md:text-5xl mb-3 md:mb-8" >Explore Venice</h1>
                         <p className="font-body text-sm md:text-base text-gray-700 font-light mb-4 md:mb-8 max-w-xs">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
-                        <button className="font-lora text-white py-2 px-12 rounded-full bg-gray-800 ">Get Started</button>
+                        <button className="font-lora text-white py-2 px-12 rounded-full bg-gray-800" onClick={() => fullpageApi.moveSectionDown()}>Get Started</button>
                       </div>
                     </div>
 
-                    <div className="p-8 md:w-1/2 h-100 h-full bg-blue-500 bg-cover bg-right" style={{ backgroundImage: `url(${splashImage})`, backgroundPosition: 'right 12% bottom 0' }}>
+                    <div className="p-8 md:w-1/2 h-100 h-full bg-cover bg-right" style={{ backgroundImage: `url(${splashImage})`, backgroundPosition: 'right 12% bottom 0' }}>
 
                     </div>
 
@@ -76,7 +76,7 @@ function App() {
                       </div>
                     </div>
 
-                    <div className="relative flex flex-col-reverse items-end p-12 md:w-1/2 h-100 h-full bg-blue-500 bg-cover bg-right" style={{ backgroundImage: `url(${splashImage2})`, backgroundPosition: 'left 12% bottom 0' }}>
+                    <div className="relative flex flex-col-reverse items-end p-12 md:w-1/2 h-100 h-full bg-cover bg-right" style={{ backgroundImage: `url(${splashImage2})`, backgroundPosition: 'left 12% bottom 0' }}>
                       <InfoIcon onClick={infoToggleHandler} className="z-10" style={{ width: '40px', height: '40px' }}></InfoIcon>
                       <InfoPanel open={infoOpen} title="Venetian Waterways">
                         <p className="font-body text-sm md:text-base font-light mb-4 ">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
@@ -99,7 +99,7 @@ function App() {
                       </div>
                     </div>
 
-                    <div className="relative flex flex-col-reverse items-end p-12 md:w-1/2 h-100 h-full bg-blue-500 bg-cover bg-right" style={{ backgroundImage: `url(${splashImage3})`, backgroundPosition: 'left 12% bottom 0' }}>
+                    <div className="relative flex flex-col-reverse items-end p-12 md:w-1/2 h-100 h-full bg-cover bg-right" style={{ backgroundImage: `url(${splashImage3})`, backgroundPosition: 'left 12% bottom 0' }}>
                       <InfoIcon onClick={infoToggleHandler} className="z-10" style={{ width: '40px', height: '40px' }}></InfoIcon>
                       <InfoPanel open={infoOpen} title="Santa Maria della Salute">
                         <p className="font-body text-sm md:text-base font-light mb-4 ">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
@@ -116,13 +116,13 @@ function App() {
 
                     <div className="p-12 md:w-1/2 h-full flex flex-col items-center justify-center">
                       <div className='text-center flex flex-col items-center max-w-sm'>
-                        <h1 className="font-display text-4xl md:text-5xl mb-3 md:mb-8" >Breathtaking<br />Views</h1>
+                        <h1 className="font-display text-4xl md:text-5xl mb-3 md:mb-8" >Breathtaking<br />Attractions</h1>
                         <p className="font-body text-sm md:text-base text-gray-700 font-light mb-4 md:mb-8 max-w-xs">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
                         <button className="font-lora text-white py-2 px-12 rounded-full bg-gray-800 ">Get Started</button>
                       </div>
                     </div>
 
-                    <div className="relative flex flex-col-reverse items-end p-12 md:w-1/2 h-100 h-full bg-blue-500 bg-cover bg-right" style={{ backgroundImage: `url(${splashImage4})`, backgroundPosition: 'left 12% bottom 0' }}>
+                    <div className="relative flex flex-col-reverse items-end p-12 md:w-1/2 h-100 h-full bg-cover bg-right" style={{ backgroundImage: `url(${splashImage4})`, backgroundPosition: 'left 12% bottom 0' }}>
                       <InfoIcon onClick={infoToggleHandler} className="z-10" style={{ width: '40px', height: '40px' }}></InfoIcon>
                       <InfoPanel open={infoOpen} title="The Grand Canal">
                         <p className="font-body text-sm md:text-base font-light mb-4 ">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
@@ -145,7 +145,7 @@ function App() {
                       </div>
                     </div>
 
-                    <div className="relative flex flex-col-reverse items-end p-12 md:w-1/2 h-100 h-full bg-blue-500 bg-cover bg-right">
+                    <div className="relative flex flex-col-reverse items-end p-12 md:w-1/2 h-100 h-full bg-cover bg-right">
                       <InfoPanel open solid title="Special thanks to">
                         <h2 className="font-display text-2xl mb-1">Nathaneal Down</h2>
                         <p className="font-body text-sm md:text-base font-light mb-4 ">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
