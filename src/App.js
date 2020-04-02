@@ -53,7 +53,7 @@ function App() {
                       <div className='text-center flex flex-col items-center max-w-sm'>
                         <h1 className="font-display text-4xl md:text-5xl mb-3 md:mb-8" >Explore Venice</h1>
                         <p className="font-body text-sm md:text-base text-gray-700 font-light mb-4 md:mb-8 max-w-xs">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
-                        <button className="font-lora text-white py-2 px-12 rounded-full bg-gray-800 ">Get Started</button>
+                        <button className="font-lora text-white py-2 px-12 rounded-full bg-gray-800" onClick={() => fullpageApi.moveSectionDown()}>Get Started</button>
                       </div>
                     </div>
 
