@@ -57,7 +57,7 @@ function App() {
                       </div>
                     </div>
 
-                    <div className="p-8 md:w-1/2 h-100 h-full bg-blue-500 bg-cover bg-right" style={{ backgroundImage: `url(${splashImage})`, backgroundPosition: 'right 12% bottom 0' }}>
+                    <div className="p-8 md:w-1/2 h-100 h-full bg-cover bg-right" style={{ backgroundImage: `url(${splashImage})`, backgroundPosition: 'right 12% bottom 0' }}>
 
                     </div>
 
@@ -76,7 +76,7 @@ function App() {
                       </div>
                     </div>
 
-                    <div className="relative flex flex-col-reverse items-end p-12 md:w-1/2 h-100 h-full bg-blue-500 bg-cover bg-right" style={{ backgroundImage: `url(${splashImage2})`, backgroundPosition: 'left 12% bottom 0' }}>
+                    <div className="relative flex flex-col-reverse items-end p-12 md:w-1/2 h-100 h-full bg-cover bg-right" style={{ backgroundImage: `url(${splashImage2})`, backgroundPosition: 'left 12% bottom 0' }}>
                       <InfoIcon onClick={infoToggleHandler} className="z-10" style={{ width: '40px', height: '40px' }}></InfoIcon>
                       <InfoPanel open={infoOpen} title="Venetian Waterways">
                         <p className="font-body text-sm md:text-base font-light mb-4 ">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
@@ -99,7 +99,7 @@ function App() {
                       </div>
                     </div>
 
-                    <div className="relative flex flex-col-reverse items-end p-12 md:w-1/2 h-100 h-full bg-blue-500 bg-cover bg-right" style={{ backgroundImage: `url(${splashImage3})`, backgroundPosition: 'left 12% bottom 0' }}>
+                    <div className="relative flex flex-col-reverse items-end p-12 md:w-1/2 h-100 h-full bg-cover bg-right" style={{ backgroundImage: `url(${splashImage3})`, backgroundPosition: 'left 12% bottom 0' }}>
                       <InfoIcon onClick={infoToggleHandler} className="z-10" style={{ width: '40px', height: '40px' }}></InfoIcon>
                       <InfoPanel open={infoOpen} title="Santa Maria della Salute">
                         <p className="font-body text-sm md:text-base font-light mb-4 ">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
@@ -122,7 +122,7 @@ function App() {
                       </div>
                     </div>
 
-                    <div className="relative flex flex-col-reverse items-end p-12 md:w-1/2 h-100 h-full bg-blue-500 bg-cover bg-right" style={{ backgroundImage: `url(${splashImage4})`, backgroundPosition: 'left 12% bottom 0' }}>
+                    <div className="relative flex flex-col-reverse items-end p-12 md:w-1/2 h-100 h-full bg-cover bg-right" style={{ backgroundImage: `url(${splashImage4})`, backgroundPosition: 'left 12% bottom 0' }}>
                       <InfoIcon onClick={infoToggleHandler} className="z-10" style={{ width: '40px', height: '40px' }}></InfoIcon>
                       <InfoPanel open={infoOpen} title="The Grand Canal">
                         <p className="font-body text-sm md:text-base font-light mb-4 ">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
@@ -145,7 +145,7 @@ function App() {
                       </div>
                     </div>
 
-                    <div className="relative flex flex-col-reverse items-end p-12 md:w-1/2 h-100 h-full bg-blue-500 bg-cover bg-right">
+                    <div className="relative flex flex-col-reverse items-end p-12 md:w-1/2 h-100 h-full bg-cover bg-right">
                       <InfoPanel open solid title="Special thanks to">
                         <h2 className="font-display text-2xl mb-1">Nathaneal Down</h2>
                         <p className="font-body text-sm md:text-base font-light mb-4 ">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
