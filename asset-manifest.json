@@ -1,29 +1,29 @@
 {
   "files": {
-    "main.css": "/my-app/static/css/main.a3e55090.chunk.css",
-    "main.js": "/my-app/static/js/main.a9751499.chunk.js",
-    "main.js.map": "/my-app/static/js/main.a9751499.chunk.js.map",
-    "runtime-main.js": "/my-app/static/js/runtime-main.a1471a85.js",
-    "runtime-main.js.map": "/my-app/static/js/runtime-main.a1471a85.js.map",
-    "static/js/2.794f2f4d.chunk.js": "/my-app/static/js/2.794f2f4d.chunk.js",
-    "static/js/2.794f2f4d.chunk.js.map": "/my-app/static/js/2.794f2f4d.chunk.js.map",
-    "index.html": "/my-app/index.html",
-    "precache-manifest.7009baddb1654ffec9d8c8954eafa1f1.js": "/my-app/precache-manifest.7009baddb1654ffec9d8c8954eafa1f1.js",
-    "service-worker.js": "/my-app/service-worker.js",
-    "static/css/main.a3e55090.chunk.css.map": "/my-app/static/css/main.a3e55090.chunk.css.map",
-    "static/js/2.794f2f4d.chunk.js.LICENSE.txt": "/my-app/static/js/2.794f2f4d.chunk.js.LICENSE.txt",
-    "static/media/alley.png": "/my-app/static/media/alley.31ff0710.png",
-    "static/media/boat.png": "/my-app/static/media/boat.8e83ae53.png",
-    "static/media/building.png": "/my-app/static/media/building.a4965e51.png",
-    "static/media/cathedral.png": "/my-app/static/media/cathedral.be1524dd.png",
-    "static/media/close.44ce4a25.svg": "/my-app/static/media/close.44ce4a25.svg",
-    "static/media/hamburger.3896db3e.svg": "/my-app/static/media/hamburger.3896db3e.svg",
-    "static/media/info.b6bb4eeb.svg": "/my-app/static/media/info.b6bb4eeb.svg"
+    "main.css": "/venezia/static/css/main.a3e55090.chunk.css",
+    "main.js": "/venezia/static/js/main.8f80f4bc.chunk.js",
+    "main.js.map": "/venezia/static/js/main.8f80f4bc.chunk.js.map",
+    "runtime-main.js": "/venezia/static/js/runtime-main.58ba52b9.js",
+    "runtime-main.js.map": "/venezia/static/js/runtime-main.58ba52b9.js.map",
+    "static/js/2.794f2f4d.chunk.js": "/venezia/static/js/2.794f2f4d.chunk.js",
+    "static/js/2.794f2f4d.chunk.js.map": "/venezia/static/js/2.794f2f4d.chunk.js.map",
+    "index.html": "/venezia/index.html",
+    "precache-manifest.2dde07924e418d94ed8feaea26ca448f.js": "/venezia/precache-manifest.2dde07924e418d94ed8feaea26ca448f.js",
+    "service-worker.js": "/venezia/service-worker.js",
+    "static/css/main.a3e55090.chunk.css.map": "/venezia/static/css/main.a3e55090.chunk.css.map",
+    "static/js/2.794f2f4d.chunk.js.LICENSE.txt": "/venezia/static/js/2.794f2f4d.chunk.js.LICENSE.txt",
+    "static/media/alley.png": "/venezia/static/media/alley.31ff0710.png",
+    "static/media/boat.png": "/venezia/static/media/boat.8e83ae53.png",
+    "static/media/building.png": "/venezia/static/media/building.a4965e51.png",
+    "static/media/cathedral.png": "/venezia/static/media/cathedral.be1524dd.png",
+    "static/media/close.44ce4a25.svg": "/venezia/static/media/close.44ce4a25.svg",
+    "static/media/hamburger.3896db3e.svg": "/venezia/static/media/hamburger.3896db3e.svg",
+    "static/media/info.b6bb4eeb.svg": "/venezia/static/media/info.b6bb4eeb.svg"
   },
   "entrypoints": [
-    "static/js/runtime-main.a1471a85.js",
+    "static/js/runtime-main.58ba52b9.js",
     "static/js/2.794f2f4d.chunk.js",
     "static/css/main.a3e55090.chunk.css",
-    "static/js/main.a9751499.chunk.js"
+    "static/js/main.8f80f4bc.chunk.js"
   ]
 }
