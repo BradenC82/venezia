@@ -11,14 +11,11 @@ export default function InfoPanel(props) {
     }
 
     return (
-        <div className={infoClasses} style={{background: 'rgb(10,10,10,0.66)'}}>
+        <div className={infoClasses} style={{background: props.solid?'#333333':'rgb(10,10,10,0.66)'}}>
             <div className="h-full flex flex-col mr-12 md:p-12 ">
-            <h1 className=" text-white max-w-xs font-display text-2xl md:text-4xl mb-2 md:mb-3 ">Santa Maria della Salute </h1>
-            <div className="text-white max-w-xs h-full  overflow-auto ">
-                 
-                <p className="font-body text-sm md:text-base font-light mb-4 ">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-                <p className="font-body text-sm md:text-base font-light mb-4 ">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-                
+            <h1 className=" text-white md:max-w-xs font-display text-3xl md:text-4xl mb-2 md:mb-3 ">{props.title}</h1>
+            <div className="text-white md:max-w-xs h-full  overflow-auto ">
+                 {props.children} 
             </div>
             </div>
         </div>
