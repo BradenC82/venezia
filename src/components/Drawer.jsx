@@ -19,6 +19,7 @@ export default function Drawer(props) {
                 <li className="whitespace-no-wrap text-2xl md:text-4xl py-2"><a href="#secondPage">Vibrant Communities</a></li>
                 <li className="whitespace-no-wrap text-2xl md:text-4xl py-2"><a href="#thirdPage">Romantic History</a></li>
                 <li className="whitespace-no-wrap text-2xl md:text-4xl py-2"><a href="#fourthPage">Breathtaking Attractions</a></li>
+                <li className="whitespace-no-wrap text-2xl md:text-4xl py-2"><a href="#fifthPage">Book Now</a></li>
             </ul>
         </div>
     )
