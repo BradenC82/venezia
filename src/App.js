@@ -36,7 +36,7 @@ function App() {
         scrollingSpeed={800}
         navigation
         navigationPosition={'left'}
-        navigationTooltips={['firstSlide', 'secondSlide']}
+        navigationTooltips={[]}
         showActiveTooltip
         anchors={['Explore', 'Communities', 'History', 'Attractions', 'Book']}
         render={({ state, fullpageApi }) => {
