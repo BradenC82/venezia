@@ -15,11 +15,11 @@ export default function Drawer(props) {
         <div className={DrawerClasses}>
             <CloseIcon onClick={props.toggle} className="text-right ml-auto mb-2">Close</CloseIcon>
             <ul className="list-none text-right font-display ml-4 md:ml-8">
-                <li  className="whitespace-no-wrap text-2xl md:text-4xl py-2"><a href="#firstPage">Explore Venice</a></li>
-                <li className="whitespace-no-wrap text-2xl md:text-4xl py-2"><a href="#secondPage">Vibrant Communities</a></li>
-                <li className="whitespace-no-wrap text-2xl md:text-4xl py-2"><a href="#thirdPage">Romantic History</a></li>
-                <li className="whitespace-no-wrap text-2xl md:text-4xl py-2"><a href="#fourthPage">Breathtaking Attractions</a></li>
-                <li className="whitespace-no-wrap text-2xl md:text-4xl py-2"><a href="#fifthPage">Book Now</a></li>
+                <li  className="whitespace-no-wrap text-2xl md:text-4xl py-2"><a href="#Explore">Explore Venice</a></li>
+                <li className="whitespace-no-wrap text-2xl md:text-4xl py-2"><a href="#Communities">Vibrant Communities</a></li>
+                <li className="whitespace-no-wrap text-2xl md:text-4xl py-2"><a href="#History">Romantic History</a></li>
+                <li className="whitespace-no-wrap text-2xl md:text-4xl py-2"><a href="#Attractions">Breathtaking Attractions</a></li>
+                <li className="whitespace-no-wrap text-2xl md:text-4xl py-2"><a href="#Book">Book Now</a></li>
             </ul>
         </div>
     )
