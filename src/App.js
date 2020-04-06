@@ -38,6 +38,7 @@ function App() {
         navigationPosition={'left'}
         navigationTooltips={[]}
         showActiveTooltip
+        normalScrollElements={'.normalScroll'}
         anchors={['Explore', 'Communities', 'History', 'Attractions', 'Book']}
         render={({ state, fullpageApi }) => {
           return (
@@ -155,8 +156,8 @@ function App() {
                     </div>
                   </div>
                 </div>
-
               </ReactFullpage.Wrapper>
+
             </React.Fragment>
           );
         }}
