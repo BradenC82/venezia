@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "47bfa9227342dd17f43bea5ae8f5fa47",
+    "revision": "973b1a659eb579b283a54889dfda323a",
     "url": "/venezia/index.html"
   },
   {
-    "revision": "4781c7ad5d6dae36ae9e",
+    "revision": "46a07b12dc5940228850",
     "url": "/venezia/static/css/main.a3e55090.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/venezia/static/js/2.794f2f4d.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "4781c7ad5d6dae36ae9e",
-    "url": "/venezia/static/js/main.09f4064e.chunk.js"
+    "revision": "46a07b12dc5940228850",
+    "url": "/venezia/static/js/main.541654fc.chunk.js"
   },
   {
     "revision": "85ad29aa6d0c218f22b4",
@@ -48,7 +48,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/venezia/static/media/hamburger.3896db3e.svg"
   },
   {
-    "revision": "b6bb4eeb09b15289e93b549707f82a42",
-    "url": "/venezia/static/media/info.b6bb4eeb.svg"
+    "revision": "2e280e6d4055d935dca36d2937c61b99",
+    "url": "/venezia/static/media/info.2e280e6d.svg"
   }
 ]);
