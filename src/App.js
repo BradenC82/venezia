@@ -28,7 +28,7 @@ function App() {
   return (
     <div className="App">
 
-      <HamburgerIcon className="fixed m-12 top-0 right-0 z-10" onClick={drawerToggleHandler}></HamburgerIcon>
+      <HamburgerIcon className="fixed m-12 top-0 right-0 z-10 cursor-pointer" onClick={drawerToggleHandler}></HamburgerIcon>
       <Drawer open={drawerOpen} toggle={drawerToggleHandler}></Drawer>
 
       <ReactFullpage
@@ -78,7 +78,7 @@ function App() {
                     </div>
 
                     <div className="relative flex flex-col-reverse items-end p-12 md:w-1/2 h-100 h-full bg-cover bg-right" style={{ backgroundImage: `url(${splashImage2})`, backgroundPosition: 'left 12% bottom 0' }}>
-                      <InfoIcon onClick={infoToggleHandler} className="z-10" style={{ width: '40px', height: '40px' }}></InfoIcon>
+                      <InfoIcon onClick={infoToggleHandler} className="z-10 cursor-pointer" style={{ width: '40px', height: '40px' }}></InfoIcon>
                       <InfoPanel open={infoOpen} title="Venetian Waterways">
                         <p className="font-body text-sm md:text-base font-light mb-4 ">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
                         <p className="font-body text-sm md:text-base font-light mb-4 ">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
@@ -101,8 +101,8 @@ function App() {
                     </div>
 
                     <div className="relative flex flex-col-reverse items-end p-12 md:w-1/2 h-100 h-full bg-cover bg-right" style={{ backgroundImage: `url(${splashImage3})`, backgroundPosition: 'left 12% bottom 0' }}>
-                      <InfoIcon onClick={infoToggleHandler} className="z-10" style={{ width: '40px', height: '40px' }}></InfoIcon>
-                      <InfoPanel open={infoOpen} title="Santa Maria della Salute">
+                      <InfoIcon onClick={infoToggleHandler} className="z-10 cursor-pointer" style={{ width: '40px', height: '40px' }}></InfoIcon>
+                      <InfoPanel open={infoOpen} title={(<>Santa Maria<br/> della Salute</>)}>
                         <p className="font-body text-sm md:text-base font-light mb-4 ">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
                         <p className="font-body text-sm md:text-base font-light mb-4 ">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
                       </InfoPanel>
@@ -124,7 +124,7 @@ function App() {
                     </div>
 
                     <div className="relative flex flex-col-reverse items-end p-12 md:w-1/2 h-100 h-full bg-cover bg-right" style={{ backgroundImage: `url(${splashImage4})`, backgroundPosition: 'left 12% bottom 0' }}>
-                      <InfoIcon onClick={infoToggleHandler} className="z-10" style={{ width: '40px', height: '40px' }}></InfoIcon>
+                      <InfoIcon onClick={infoToggleHandler} className="z-10 cursor-pointer" style={{ width: '40px', height: '40px' }}></InfoIcon>
                       <InfoPanel open={infoOpen} title="The Grand Canal">
                         <p className="font-body text-sm md:text-base font-light mb-4 ">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
                         <p className="font-body text-sm md:text-base font-light mb-4 ">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
