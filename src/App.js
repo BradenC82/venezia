@@ -9,6 +9,7 @@ import ReactFullpage from '@fullpage/react-fullpage';
 import Drawer from './components/Drawer';
 import { ReactComponent as InfoIcon } from './assets/icons/info.svg'
 import { ReactComponent as HamburgerIcon } from './assets/icons/hamburger.svg'
+import { ReactComponent as ArrowIcon } from './assets/icons/arrow.svg'
 import InfoPanel from './components/infoPanel';
 
 function App() {
@@ -54,7 +55,7 @@ function App() {
                       <div className='text-center flex flex-col items-center max-w-sm'>
                         <h1 className="font-display text-4xl md:text-5xl mb-3 md:mb-8" >Explore Venice</h1>
                         <p className="font-body text-sm md:text-base text-gray-700 font-light mb-4 md:mb-8 max-w-xs">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
-                        <button className="font-lora text-white py-2 px-12 rounded-full bg-gray-800" onClick={() => fullpageApi.moveSectionDown()}>Get Started</button>
+                        <button className="font-lora text-white py-2 px-12 rounded-full bg-gray-800 focus:outline-none focus:shadow-outline-gray" onClick={() => fullpageApi.moveSectionDown()}>Get Started</button>
                       </div>
                     </div>
 
@@ -73,7 +74,11 @@ function App() {
                       <div className='text-center flex flex-col items-center max-w-sm'>
                         <h1 className="font-display text-4xl md:text-5xl mb-3 md:mb-8" >Vibrant<br />Communities</h1>
                         <p className="font-body text-sm md:text-base text-gray-700 font-light mb-4 md:mb-8 max-w-xs">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
-                        <button className="font-lora text-white py-2 px-12 rounded-full bg-gray-800 ">Get Started</button>
+                        <div className="inline-flex">
+                          <button className="font-lora text-white py-2 px-6 rounded-l-full bg-gray-800 focus:outline-none focus:shadow-outline-gray"><ArrowIcon style={{ width: '40px', height: '20px' }}></ArrowIcon></button>
+                          <div className="h-full" style={{width:'1px'}}></div>
+                          <button className="font-lora text-white py-2 px-6 rounded-r-full bg-gray-800 focus:outline-none focus:shadow-outline-gray"><ArrowIcon style={{ transform: 'rotate(180deg)', width: '40px', height: '20px' }}></ArrowIcon></button>
+                        </div>
                       </div>
                     </div>
 
@@ -96,7 +101,11 @@ function App() {
                       <div className='text-center flex flex-col items-center max-w-sm'>
                         <h1 className="font-display text-4xl md:text-5xl mb-3 md:mb-8" >Romantic<br />History</h1>
                         <p className="font-body text-sm md:text-base text-gray-700 font-light mb-4 md:mb-8 max-w-xs">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
-                        <button className="font-lora text-white py-2 px-12 rounded-full bg-gray-800 ">Get Started</button>
+                        <div className="inline-flex">
+                          <button className="font-lora text-white py-2 px-6 rounded-l-full bg-gray-800 focus:outline-none focus:shadow-outline-gray"><ArrowIcon style={{ width: '40px', height: '20px' }}></ArrowIcon></button>
+                          <div className="h-full" style={{width:'1px'}}></div>
+                          <button className="font-lora text-white py-2 px-6 rounded-r-full bg-gray-800 focus:outline-none focus:shadow-outline-gray"><ArrowIcon style={{ transform: 'rotate(180deg)', width: '40px', height: '20px' }}></ArrowIcon></button>
+                        </div>
                       </div>
                     </div>
 
@@ -119,7 +128,11 @@ function App() {
                       <div className='text-center flex flex-col items-center max-w-sm'>
                         <h1 className="font-display text-4xl md:text-5xl mb-3 md:mb-8" >Breathtaking<br />Attractions</h1>
                         <p className="font-body text-sm md:text-base text-gray-700 font-light mb-4 md:mb-8 max-w-xs">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
-                        <button className="font-lora text-white py-2 px-12 rounded-full bg-gray-800 ">Get Started</button>
+                        <div className="inline-flex">
+                          <button className="font-lora text-white py-2 px-6 rounded-l-full bg-gray-800 focus:outline-none focus:shadow-outline-gray"><ArrowIcon style={{ width: '40px', height: '20px' }}></ArrowIcon></button>
+                          <div className="h-full" style={{width:'1px'}}></div>
+                          <button className="font-lora text-white py-2 px-6 rounded-r-full bg-gray-800 focus:outline-none focus:shadow-outline-gray"><ArrowIcon style={{ transform: 'rotate(180deg)', width: '40px', height: '20px' }}></ArrowIcon></button>
+                        </div>
                       </div>
                     </div>
 
@@ -142,7 +155,7 @@ function App() {
                       <div className='text-center flex flex-col items-center max-w-sm'>
                         <h1 className="font-display text-4xl md:text-5xl mb-3 md:mb-8" >Book Now</h1>
                         <p className="font-body text-sm md:text-base text-gray-700 font-light mb-4 md:mb-8 max-w-xs">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
-                        <button className="font-lora text-white py-2 px-12 rounded-full bg-gray-800 ">Get Started</button>
+                        <button className="font-lora text-white py-2 px-12 rounded-full bg-gray-800 focus:outline-none focus:shadow-outline-gray">Book Now</button>
                       </div>
                     </div>
 
