@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "973b1a659eb579b283a54889dfda323a",
+    "revision": "489773e47bab93e34ee4743d7b4acc06",
     "url": "/venezia/index.html"
   },
   {
-    "revision": "46a07b12dc5940228850",
-    "url": "/venezia/static/css/main.a3e55090.chunk.css"
+    "revision": "4ced763c6f52c74d49a0",
+    "url": "/venezia/static/css/main.52279fc8.chunk.css"
   },
   {
-    "revision": "9ca90a09346c62ff29e4",
-    "url": "/venezia/static/js/2.794f2f4d.chunk.js"
+    "revision": "b8bb73087338a80a4621",
+    "url": "/venezia/static/js/2.872022ee.chunk.js"
   },
   {
     "revision": "776b9d07ffd005206ca2919d360922b5",
-    "url": "/venezia/static/js/2.794f2f4d.chunk.js.LICENSE.txt"
+    "url": "/venezia/static/js/2.872022ee.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "46a07b12dc5940228850",
-    "url": "/venezia/static/js/main.541654fc.chunk.js"
+    "revision": "4ced763c6f52c74d49a0",
+    "url": "/venezia/static/js/main.326f9431.chunk.js"
   },
   {
     "revision": "85ad29aa6d0c218f22b4",
@@ -26,6 +26,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "9c0ae834890b3f07b2117eb2297ed580",
     "url": "/venezia/static/media/alley.9c0ae834.png"
+  },
+  {
+    "revision": "812443722ab386296e105af8bcb41546",
+    "url": "/venezia/static/media/arrow.81244372.svg"
   },
   {
     "revision": "45265f621eb4071cc26a6088729a8d0f",
