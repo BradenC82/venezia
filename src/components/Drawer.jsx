@@ -13,8 +13,8 @@ export default function Drawer(props) {
 
     return (
         <div className={DrawerClasses}>
-            <CloseIcon onClick={props.toggle} className="text-right ml-auto mb-2">Close</CloseIcon>
-            <ul className="list-none text-right font-display ml-4 md:ml-8">
+            <CloseIcon onClick={props.toggle} className="text-right ml-auto mb-2 cursor-pointer">Close</CloseIcon>
+            <ul id="drawerList" className="list-none text-right font-display ml-4 md:ml-8">
                 <li  className="whitespace-no-wrap text-2xl md:text-4xl py-2"><a href="#Explore">Explore Venice</a></li>
                 <li className="whitespace-no-wrap text-2xl md:text-4xl py-2"><a href="#Communities">Vibrant Communities</a></li>
                 <li className="whitespace-no-wrap text-2xl md:text-4xl py-2"><a href="#History">Romantic History</a></li>

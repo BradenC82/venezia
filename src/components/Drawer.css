@@ -1,8 +1,8 @@
-a{
+#drawerList a{
     position: relative;
 }
 
-a:after {    
+#drawerList a:after {    
     background: none repeat scroll 0 0 transparent;
     content: "";
     display: block;
@@ -14,7 +14,7 @@ a:after {
     width: 0%;
   }
 
-li:hover a:after { 
+#drawerList li:hover a:after { 
     background: #000;
     width: 75%; 
 }
